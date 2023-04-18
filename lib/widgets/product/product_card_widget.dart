@@ -39,7 +39,7 @@ class ProductCard extends StatelessWidget {
               Container(
                 //color: Colors.amber,
                 width: 255,
-                height: 70,
+                height: 80,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -49,7 +49,7 @@ class ProductCard extends StatelessWidget {
                         titulo,
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 18,
+                            fontSize: 15,
                             fontWeight: FontWeight.w300),
                       ),
                     ),
@@ -57,7 +57,7 @@ class ProductCard extends StatelessWidget {
                       descricao,
                       style: TextStyle(
                           color: Colors.black,
-                          fontSize: 14,
+                          fontSize: 12,
                           fontWeight: FontWeight.w300),
                     ),
                     SizedBox(
@@ -74,7 +74,7 @@ class ProductCard extends StatelessWidget {
                         ),
                         SizedBox(
                           height: 29,
-                          width: 80,
+                          width: 99,
                           child: ElevatedButton(
                             onPressed: () {},
                             style: ElevatedButton.styleFrom(

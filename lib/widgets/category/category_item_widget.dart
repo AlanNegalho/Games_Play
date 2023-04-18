@@ -25,7 +25,18 @@ class CategoryItem extends StatelessWidget {
           Radius.circular(64),
         ),
       ),
-      child: Image.asset(image),
+      child: SizedBox(
+        child: TextButton(
+          onPressed: () {},
+          style: ElevatedButton.styleFrom(
+            //backgroundColor: Colors.yellow,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20.0),
+            ),
+          ),
+          child: Image.asset(image),
+        ),
+      ),
     );
   }
 }

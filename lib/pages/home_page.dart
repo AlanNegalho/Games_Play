@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import 'package:games_play/card/list_widget1.dart';
 import 'package:games_play/widgets/category/category_list_widget.dart';
 import 'package:games_play/widgets/product/product_list_widget.dart';
 
@@ -73,7 +75,11 @@ class HomePage extends StatelessWidget {
               child: CategoryList(),
             ),
             SizedBox(
-              height: 20,
+              height: 140,
+              width: 500,
+              child: Listcard(
+                scrollDerection: Axis.horizontal,
+              ),
             ),
             SizedBox(
               child: Text(
