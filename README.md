@@ -1,16 +1,5 @@
 # games_play
 
-A new Flutter project.
+Layout aplicativo loja de games
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Captura de tela de 2023-12-31 16-01-55](https://github.com/AlanNegalho/Games_Play/assets/107214420/ddc435d6-86f6-4887-ab7f-08c19c08cc9a)
