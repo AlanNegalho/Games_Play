@@ -70,7 +70,7 @@ class HomePage extends StatelessWidget {
           // crossAxisAlignment: CrossAxisAlignment.stretch,
           children: const <Widget>[
             SizedBox(
-              height: 80,
+              height: 120,
               width: 80,
               child: CategoryList(),
             ),

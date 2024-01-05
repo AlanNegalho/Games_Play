@@ -7,30 +7,62 @@ class CategoryList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(scrollDirection: Axis.horizontal, children: const [
-      CategoryItem(
-        image: "assets/games.png",
+      Column(
+        children: [
+          CategoryItem(
+            image: "assets/games.png",
+          ),
+          Text('Ação'),
+        ],
       ),
-      CategoryItem(
-        image: "assets/games.png",
+      Column(
+        children: [
+          CategoryItem(
+            image: "assets/games.png",
+          ),
+          Text('Avetura'),
+        ],
       ),
-      CategoryItem(
-        image: "assets/games.png",
+      Column(
+        children: [
+          CategoryItem(
+            image: "assets/games.png",
+          ),
+          Text('Quebra-cabeça'),
+        ],
       ),
-      CategoryItem(
-        image: "assets/games.png",
+      Column(
+        children: [
+          CategoryItem(
+            image: "assets/games.png",
+          ),
+          Text('Raciocínio'),
+        ],
       ),
-      CategoryItem(
-        image: "assets/games.png",
+      Column(
+        children: [
+          CategoryItem(
+            image: "assets/games.png",
+          ),
+          Text('RPG'),
+        ],
       ),
-      CategoryItem(
-        image: "assets/games.png",
+      Column(
+        children: [
+          CategoryItem(
+            image: "assets/games.png",
+          ),
+          Text('Esportes'),
+        ],
       ),
-      CategoryItem(
-        image: "assets/games.png",
+      Column(
+        children: [
+          CategoryItem(
+            image: "assets/games.png",
+          ),
+          Text('Corrida'),
+        ],
       ),
-      CategoryItem(
-        image: "assets/games.png",
-      )
     ]);
   }
 }
